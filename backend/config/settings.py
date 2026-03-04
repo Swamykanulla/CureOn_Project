@@ -32,10 +32,11 @@ SECRET_KEY = os.environ.get("SECRET_KEY", "django-insecure-=e6g*))4*75xuo86o%wyg
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = os.environ.get("DEBUG", "True").lower() == "true"
 
-ALLOWED_HOSTS = ['*']
-RENDER_EXTERNAL_HOSTNAME = os.environ.get('RENDER_EXTERNAL_HOSTNAME')
-if RENDER_EXTERNAL_HOSTNAME:
-    ALLOWED_HOSTS.append(RENDER_EXTERNAL_HOSTNAME)
+ALLOWED_HOSTS = [
+    "cureon-backend-j5h9.onrender.com",
+    "localhost",
+    "127.0.0.1",
+]
 
 
 # Application definition
@@ -149,7 +150,10 @@ STORAGES = {
     },
 }
 
-CSRF_TRUSTED_ORIGINS = os.environ.get("CSRF_TRUSTED_ORIGINS", "https://cureon-backend-5j6u.onrender.com,http://cureon-frontend.s3-website-us-east-1.amazonaws.com").split(",")
+CSRF_TRUSTED_ORIGINS = [
+    "https://cureon-backend-j5h9.onrender.com",
+    "http://cureon-frontend.s3-website-us-east-1.amazonaws.com",
+]
 SECURE_PROXY_SSL_HEADER = ('HTTP_X_FORWARDED_PROTO', 'https')
 SECURE_SSL_REDIRECT = os.environ.get("SECURE_SSL_REDIRECT", "False").lower() == "true"
 
@@ -184,8 +188,10 @@ SIMPLE_JWT = {
 
 AUTH_USER_MODEL = "accounts.User"
 
-CORS_ALLOW_ALL_ORIGINS = os.environ.get("CORS_ALLOW_ALL_ORIGINS", "False").lower() == "true"
-CORS_ALLOWED_ORIGINS = os.environ.get("CORS_ALLOWED_ORIGINS", "http://cureon-frontend.s3-website-us-east-1.amazonaws.com,http://localhost:3000,http://localhost:5173,http://localhost:8080").split(",")
+CORS_ALLOW_ALL_ORIGINS = True
+CORS_ALLOWED_ORIGINS = [
+    "http://cureon-frontend.s3-website-us-east-1.amazonaws.com",
+]
 
 # Email configuration
 EMAIL_BACKEND = os.environ.get("EMAIL_BACKEND", "django.core.mail.backends.smtp.EmailBackend")
