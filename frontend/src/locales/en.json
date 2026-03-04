@@ -1,0 +1,354 @@
+{
+  "common": {
+    "dashboard": "Dashboard",
+    "appointments": "Appointments",
+    "myRecords": "Medical Records",
+    "prescriptions": "Prescriptions",
+    "aiHealthAssistant": "Health Assistant",
+    "settings": "Settings",
+    "profile": "Profile",
+    "logout": "Logout",
+    "cancel": "Cancel",
+    "save": "Save Changes",
+    "loading": "Loading...",
+    "search": "Search...",
+    "viewAll": "View All",
+    "update": "Update",
+    "duration": "Duration",
+    "selectDoctorType": "Select Doctor Type",
+    "chooseDateTime": "Choose Date & Time",
+    "chooseDoctorDesc": "Choose the type of doctor you need based on your health concern",
+    "selectDate": "Select Date",
+    "selectTimeSlot": "Select Time Slot",
+    "bookingSummary": "Booking Summary",
+    "doctor": "Doctor",
+    "date": "Date",
+    "time": "Time",
+    "selectNewDate": "Select New Date",
+    "selectNewTime": "Select New Time",
+    "appointmentTime": "{{date}} at {{time}}",
+    "newAppointment": "New appointment:",
+    "joinCall": "Join Call",
+    "reschedule": "Reschedule",
+    "back": "Back",
+    "confirm": "Confirm",
+    "video": "Video Call",
+    "inPerson": "In-Person",
+    "dr": "Dr.",
+    "change": "Change",
+    "download": "Download"
+  },
+  "dashboard": {
+    "welcome": "Welcome back,",
+    "overview": "Here's an overview of your health journey",
+    "upcomingAppointments": "Upcoming Appointments",
+    "completedVisits": "Completed Visits",
+    "activePrescriptions": "Active Prescriptions",
+    "recentRecords": "Recent Records",
+    "thisMonth": "this month",
+    "recentRecordsData": {
+      "bloodTestResults": "Blood Test Results",
+      "generalCheckup": "General Checkup",
+      "antibiotics": "Prescription - Antibiotics",
+      "labReport": "Lab Report",
+      "consultation": "Consultation",
+      "prescription": "Prescription"
+    }
+  },
+  "appointments": {
+    "title": "My Appointments",
+    "subtitle": "View and manage your appointments",
+    "bookNew": "Book New Appointment",
+    "upcoming": "Upcoming",
+    "completed": "Completed",
+    "cancelled": "Cancelled",
+    "currentAppointment": "Current Appointment",
+    "joinCall": "Joining video call with Dr. {{name}}",
+    "rescheduleSuccess": "Appointment rescheduled successfully",
+    "cancelSuccess": "Appointment with Dr. {{name}} cancelled",
+    "specialties": {
+      "general": "General Physician",
+      "generalDesc": "For general health checkups",
+      "cardio": "Cardiologist",
+      "cardioDesc": "Heart and blood vessels",
+      "neuro": "Neurologist",
+      "neuroDesc": "Brain and nervous system",
+      "ortho": "Orthopedic",
+      "orthoDesc": "Bones and joints",
+      "eye": "Ophthalmologist",
+      "eyeDesc": "Eye care specialist",
+      "pedia": "Pediatrician",
+      "pediaDesc": "Child health specialist",
+      "derma": "Dermatologist",
+      "dermaDesc": "Skin care specialist"
+    },
+    "noUpcoming": "No upcoming appointments",
+    "bookToStart": "Book an appointment to get started",
+    "bookBtn": "Book Appointment",
+    "noCancelled": "No cancelled appointments",
+    "noCompleted": "No completed appointments"
+  },
+  "records": {
+    "title": "Medical Records",
+    "subtitle": "View and manage your medical records",
+    "sharedByDoctor": "Shared by Doctor",
+    "myUploads": "My Uploads",
+    "noFile": "No file uploaded",
+    "uploadSuccess": "Successfully uploaded {{name}}",
+    "downloading": "Downloading {{name}}...",
+    "chooseFile": "Choose File",
+    "noRecordsDoctor": "No records from doctors yet",
+    "noRecordsUpload": "You haven't uploaded any records yet",
+    "noRecordsDoctorSub": "Records uploaded by your doctors will appear here",
+    "types": {
+      "bloodTest": "Blood Test Report",
+      "xray": "X-Ray Images",
+      "prescription": "Prescription History",
+      "vaccination": "Vaccination Records",
+      "insurance": "Insurance Documents",
+      "labReport": "Lab Report",
+      "imaging": "Imaging",
+      "consultation": "Consultation",
+      "uploaded": "Uploaded Document"
+    }
+  },
+  "prescriptions": {
+    "title": "Prescriptions",
+    "subtitle": "View your prescription history",
+    "active": "Active",
+    "completed": "Completed",
+    "download": "Downloading prescription from {{date}}"
+  },
+  "chatbot": {
+    "title": "Health Assistant",
+    "subtitle": "Get answers to your health-related questions",
+    "quickQuestions": "Quick questions:",
+    "placeholder": "Type your health question...",
+    "disclaimer": "This is an AI assistant. For medical emergencies, please contact your doctor or call emergency services.",
+    "welcome": "Hello! I'm your healthcare assistant. I can help you with:\n\n• Disease-related queries\n• General health guidance\n• Understanding prescriptions or reports\n\nHow can I assist you today?",
+    "responses": {
+      "default": "Thank you for your question. While I can provide general health information, please consult with your doctor for personalized medical advice. Is there anything specific I can help you understand about your health?",
+      "headache": "Headaches can be caused by various factors including stress, dehydration, lack of sleep, or eye strain. For relief, try resting in a dark room, staying hydrated, and taking over-the-counter pain relievers if appropriate. If headaches persist or are severe, please consult your doctor.",
+      "prescription": "I can help you understand your prescriptions! To get information about a specific medication, please share the name of the medicine, and I'll provide details about its usage, dosage guidelines, and potential side effects.",
+      "appointment": "To book an appointment, please visit the Appointments section in your dashboard. You can choose your preferred doctor, date, and time slot. Would you like me to guide you through the process?"
+    },
+    "actions": {
+      "cold": "What are common cold symptoms?",
+      "stress": "How to manage stress?",
+      "explain": "Explain my prescription",
+      "book": "Book an appointment"
+    }
+  },
+  "settings": {
+    "title": "Settings",
+    "subtitle": "Manage your account and preferences",
+    "notifications": {
+      "title": "Notification Preferences",
+      "email": "Email Notifications",
+      "emailDesc": "Receive appointment reminders via email",
+      "sms": "SMS Notifications",
+      "smsDesc": "Receive appointment reminders via SMS",
+      "prescription": "Prescription Reminders",
+      "prescriptionDesc": "Get reminded to take your medications"
+    },
+    "security": {
+      "title": "Security",
+      "current": "Current Password",
+      "new": "New Password",
+      "confirm": "Confirm New Password",
+      "update": "Update Password",
+      "fillAll": "Please fill in all password fields",
+      "mismatch": "New passwords do not match",
+      "success": "Password updated successfully"
+    },
+    "toast": {
+      "enabled": "{{type}} notifications enabled",
+      "disabled": "{{type}} notifications disabled"
+    }
+  },
+  "profile": {
+    "title": "Patient Profile",
+    "subtitle": "Manage your personal and medical information",
+    "personalInfo": "Personal Information",
+    "medicalDetails": "Medical Details",
+    "patientId": "Patient ID",
+    "saving": "Saving...",
+    "success": "Profile updated successfully",
+    "status": {
+      "active": "Active",
+      "premium": "Premium"
+    },
+    "toast": {
+      "imageUpdated": "Profile image updated",
+      "changesDiscarded": "Changes discarded"
+    },
+    "labels": {
+      "fullName": "Full Name",
+      "email": "Email Address",
+      "phone": "Phone Number",
+      "dob": "Date of Birth",
+      "address": "Address",
+      "bloodType": "Blood Type",
+      "height": "Height (cm)",
+      "weight": "Weight (kg)",
+      "allergies": "Allergies",
+      "chronic": "Chronic Diseases",
+      "past": "Past Diseases",
+      "family": "Family History"
+    },
+    "placeholders": {
+      "bloodType": "Select blood type",
+      "chronic": "e.g., Diabetes, Hypertension",
+      "past": "e.g., Surgery in 2020",
+      "family": "e.g., Father has heart condition"
+    }
+  },
+  "doctor": {
+    "patients": {
+      "title": "Patients",
+      "subtitle": "Manage your patient records",
+      "searchPlaceholder": "Search patients...",
+      "yearsOld": "years old",
+      "lastVisit": "Last visit",
+      "history": "History",
+      "uploadSuccess": "File {{fileName}} uploaded to {{patientName}}'s records",
+      "manageAvailability": "Manage Availability",
+      "noPatientsFound": "No patients found"
+    },
+    "historyModal": {
+      "title": "Patient History - {{name}}",
+      "prescriptions": "Prescriptions",
+      "records": "Records",
+      "uploadPrompt": "Upload prescription or medical file",
+      "uploadedBy": "Uploaded by",
+      "doctor": "Doctor",
+      "patient": "Patient",
+      "downloadSuccess": "Downloading {{fileName}}...",
+      "medicine": "Medicine",
+      "dosage": "Dosage",
+      "duration": "Duration",
+      "type": "Type"
+    }
+  },
+  "landing": {
+    "brandName": "CureOn",
+    "nav": {
+      "home": "Home",
+      "services": "Services",
+      "about": "About",
+      "contact": "Contact",
+      "signIn": "Sign In",
+      "getStarted": "Get Started"
+    },
+    "hero": {
+      "trustedBy": "Trusted by 50,000+ patients",
+      "headlinePrefix": "Healthcare at Your",
+      "headlineSuffix": "Fingertips",
+      "subheadline": "Connect with certified doctors, book appointments, and manage your health records—all from the comfort of your home.",
+      "bookConsultation": "Book Consultation",
+      "features": {
+        "availability": "24/7 Doctor Availability",
+        "video": "Secure Video Consultations",
+        "prescriptions": "Digital Prescriptions"
+      },
+      "cards": {
+        "appointmentConfirmed": "Appointment Confirmed",
+        "onlineNow": "Online Now",
+        "appointmentLabel": "Appointment",
+        "doctorName": "Dr. Sarah"
+      }
+    },
+    "features": {
+      "tag": "Our Services",
+      "title": "Complete Healthcare Solutions",
+      "description": "Everything you need for modern healthcare, accessible from your device. Quality care made simple and convenient.",
+      "items": {
+        "videoConsultations": {
+          "title": "Video Consultations",
+          "desc": "Connect with doctors through secure HD video calls from anywhere in the world."
+        },
+        "easyScheduling": {
+          "title": "Easy Scheduling",
+          "desc": "Book appointments with just a few clicks. View doctor availability in real-time."
+        },
+        "digitalRecords": {
+          "title": "Digital Records",
+          "desc": "Access your complete medical history, prescriptions, and reports anytime."
+        },
+        "securePrivate": {
+          "title": "Secure & Private",
+          "desc": "Your health data is encrypted and protected with enterprise-grade security."
+        },
+        "support247": {
+          "title": "24/7 Support",
+          "desc": "Round-the-clock medical assistance for emergencies and urgent care needs."
+        },
+        "instantMessaging": {
+          "title": "Instant Messaging",
+          "desc": "Chat with healthcare providers for quick questions and follow-ups."
+        },
+        "expertDoctors": {
+          "title": "Expert Doctors",
+          "desc": "Access to verified specialists across 50+ medical specializations."
+        },
+        "ePrescriptions": {
+          "title": "E-Prescriptions",
+          "desc": "Receive digital prescriptions delivered directly to your preferred pharmacy."
+        }
+      }
+    },
+    "about": {
+      "tag": "About Us",
+      "title": "Your Complete Healthcare Ecosystem",
+      "description": "Health Connect Hub bridges the gap between patients, doctors, pharmacies, and diagnostic labs. Experience a seamless, integrated healthcare journey where every stakeholder is connected for better care delivery.",
+      "features": {
+        "advancedTechnology": {
+          "title": "Seamless Integration",
+          "desc": "Connecting patients, doctors, and facilities in one unified platform."
+        },
+        "patientCentric": {
+          "title": "Real-time Coordination",
+          "desc": "Instant updates on appointments, prescriptions, and lab results."
+        },
+        "certifiedSpecialists": {
+          "title": "Holistic Management",
+          "desc": "From diagnosis to treatment and medication, manage every step efficiently."
+        }
+      }
+    },
+    "cta": {
+      "title": "Start Your Health Journey Today",
+      "description": "Join thousands of patients who trust CureOn for their healthcare needs. Get started in minutes and experience healthcare reimagined.",
+      "createAccount": "Create Free Account",
+      "talkSupport": "Talk to Support",
+      "stats": {
+        "activePatients": "Active Patients",
+        "availableSupport": "Available Support",
+        "securePlatform": "Secure Platform"
+      }
+    },
+    "footer": {
+      "brandDescription": "Your trusted partner in digital healthcare. Access quality medical care from anywhere, anytime.",
+      "columns": {
+        "company": "Company",
+        "services": "Services",
+        "support": "Support"
+      },
+      "links": {
+        "aboutUs": "About Us",
+        "careers": "Careers",
+        "press": "Press",
+        "blog": "Blog",
+        "videoConsultation": "Video Consultation",
+        "findDoctors": "Find Doctors",
+        "bookAppointment": "Book Appointment",
+        "healthRecords": "Health Records",
+        "helpCenter": "Help Center",
+        "contactUs": "Contact Us",
+        "privacyPolicy": "Privacy Policy",
+        "termsOfService": "Terms of Service"
+      },
+      "rightsReserved": "CureOn. All rights reserved."
+    }
+  }
+}
